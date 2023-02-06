@@ -1,0 +1,8 @@
+from Bio.Seq import Seq
+my_seq = Seq("AGTCAATT")
+my_seq
+
+### >>> Seq('AGTCAATT')
+
+### Sequence는 생물정보학 프로그래밍에서 가장 기본이 되는 객체이다. 
+### Sequence는 단백질, DNA, RNA등을 표현할때 쓰는 문자열이다. 
