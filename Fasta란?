@@ -1,5 +1,6 @@
-#Fasta란 염기서열 혹은 단백질서열을 문자열로 표현한 것
+Fasta란 염기서열 혹은 단백질서열을 문자열로 표현한 것
 
-#대표적으로 NCBI(National Center for Biotechnology Information)에서 간편히 얻을 수 있다.
+대표적으로 NCBI(National Center for Biotechnology Information)에서 간편히 얻을 수 있다.
 
-#예를들어 covid 19의 spike protein의 fasta를 얻을 수 있다.
+
+예를들어 covid 19의 spike protein의 fasta를 얻을 수 있다.
