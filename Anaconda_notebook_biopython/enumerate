@@ -1,0 +1,17 @@
+from Bio.Seq import Seq
+my_seq = Seq("AGTCAATT")
+
+for index, letter in enumerate(my_seq):
+    print("%i %s" % (index, letter))
+
+>>> 0 A
+    1 G
+    2 T
+    3 C
+    4 A
+    5 A
+    6 T
+    7 T
+   
+### python에서 enumerate함수는 반복문에서 쓸 수 있는 함수임
+### enumerate함수를 쓰면 인덱스와 값을 튜플형태로 반환해줌
