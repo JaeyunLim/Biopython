@@ -1,0 +1,7 @@
+from Bio.Seq import Seq
+my_seq = Seq("AGTCAATT")
+my_seq.reverse_complement()
+
+>>> Seq('AATTGACT')
+
+### Seq객체에 reverse_complement 라는 메소드를 호출하면 Seq객체에 맞는 역상보서열이 결과로 나오게 된다. 
