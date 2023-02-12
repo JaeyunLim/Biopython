@@ -1,0 +1,9 @@
+from Bio.Seq import Seq
+my_seq = Seq("AGTCAATT")
+
+from Bio.Utils import gc_fraction as gc
+gc(my_seq)
+
+>>> 0.25
+
+### Bio.Utils모듈의 gc_fraction함수는 염기서열 속 G(구아닌)과 C(사이토신)염기의 합의 비율을 보여준다.
