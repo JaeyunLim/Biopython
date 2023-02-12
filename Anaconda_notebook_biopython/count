@@ -1,0 +1,11 @@
+from Bio.Seq import Seq
+my_seq = Seq("AGTCAATT")
+
+my_seq.count("A") #1
+my_seq.count("AA") #2
+
+>>> 3
+    1
+
+### #1은 염기서열중 A염기의 개수를 구해줌
+### #2는 염기서열중 "AA"의 개수를 구해줌
